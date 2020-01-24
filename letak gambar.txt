@@ -1,0 +1,80 @@
+rumput 
+w = 74.3
+h = 70.1
+x = 958.8
+y = 482.0
+
+rumput perahu awal
+w = 74.3
+h = 70.1
+x = 736.5
+y = 462.9
+
+kambing
+w = 84.3
+h = 84.3
+x = 1070.8
+y = 464.0
+
+srigala
+w = 111.8
+h = 70.0
+x = 1181.8
+y = 476.9
+
+perahu
+w = 246.7
+h = 152.1
+x = 692.4
+y = 454.1
+
+coding go to
+on (release){
+	gotoAndPlay(136);
+}
+
+tombol go awal
+w = 96.6
+h = 96.6
+x = 319.9
+y = 68.1
+
+tombol go
+w = 134.6
+h = 134.6
+x = -19.0
+y = -19.0
+
+tombol rumput awal
+w = 74.3
+h = 70.1
+x = 0.0
+y = 0.0
+
+tombol rumput
+w = 136.6
+h = 136.6
+x = -32.0
+y = -32.0
+
+w 829.8
+h 340.1
+x -793.8
+y -36.0
+
+on (release){
+    getURL("https://web.facebook.com/NanangMaulanaArmand", "_blank", "GET");
+}
+
+var btn_url:Button;
+btn_url.onRelease = function (){
+	getURL("https://web.facebook.com/NanangMaulanaArmand");
+};
+
+on(press) {
+if ("grass",_visible = 1);
+setProperty ("grass", _visible, "0"){
+}else if ("grass", _visible = 0);
+setProperty ("grass", _visible, "1"){
+}
+}
